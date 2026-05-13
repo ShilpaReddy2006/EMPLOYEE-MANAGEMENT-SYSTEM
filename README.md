@@ -192,23 +192,6 @@ Or run the `EmployeeApplication.java` file directly from your IDE.
   "salary": 75000
 }
 ```
-
----
-
-## Important Fixes
-
-### Fix Delete Mapping
-
-Replace this:
-
-```java
-@DeleteMapping("/employee{id}")
-```
-
-With this:
-
-```java
-@DeleteMapping("/employee/{id}")
 ```
 
 ## Future Improvements
